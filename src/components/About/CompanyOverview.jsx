@@ -1,5 +1,5 @@
 import React from 'react'
-import Team from '../../assets/images/resources/PMTL_GATE.jpg'
+import Team from '../../assets/images/resources/PMTL_Gate.jpg'
 import Factory from '../../assets/images/resources/factory.png'
 import Tech from '../../assets/images/resources/tech1.png'
 import ISO from '../../assets/images/resources/iso.jpg'
