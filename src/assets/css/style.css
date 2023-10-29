@@ -104,6 +104,20 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Poppins', sans-serif;
     margin: 0;
 }
+
+title1 {
+    color: #3a3a3a;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+ h2 {
+    color: #3a3a3a;
+    text-align: center;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
 h3 {
     color: #27282c;
     font-size: 20px; 
@@ -177,6 +191,18 @@ li{
 .btn-one {
     position: relative;
     display: inline-block;
+    background: #e9212e;
+    color: #ffffff;
+    font-size: 15px;
+    line-height: 60px;
+    font-weight: 500;
+    text-transform: capitalize;
+    font-family: 'Rubik', sans-serif;
+    padding: 0 30px 0;
+    transition: all 500ms ease;
+}
+.btn-one-detail {
+    position: relative;
     background: #e9212e;
     color: #ffffff;
     font-size: 15px;
@@ -1534,6 +1560,12 @@ select:focus {
     content: "";
 }
 
+/* Copyright Container */
+.copyright-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
 
 
 /*** 
@@ -1697,14 +1729,15 @@ select:focus {
     position: relative;
     display: block;
     background: transparent;
-    margin-top: -135px;
+    margin-top: 60px;
+    /* margin-top: -110px; */
     z-index: 100;
 }
 .single-highlight-box{
     position: relative;
     display: block;
     background: transparent;
-    padding-top: 55px;
+    padding-top: 30px;
     margin-bottom: 50px;
 }
 .single-highlight-box .icon-holder{
@@ -2000,7 +2033,7 @@ select:focus {
     background-size: cover;
     background-position: center top;
     background-repeat: no-repeat;
-    padding: 110px 0 60px;
+    padding: 110px 0 30px;
     z-index: 1;
 }
 .working-area::before {
@@ -2310,7 +2343,7 @@ select:focus {
     position: relative;
     display: block;
     background: #f6f6f6;
-    padding: 110px 0 50px; 
+    padding: 50px 0 5px; 
     z-index: 2;
 }
 
@@ -3117,8 +3150,8 @@ select:focus {
     position: relative;
     display: block;
     background: #27282c;
-    padding-top: 110px;
-    padding-bottom: 110px;
+    padding: 30px;
+    /* padding-bottom: 30px; */
     z-index: 1;
 }
 .footer-shape-bg{
@@ -3127,9 +3160,9 @@ select:focus {
     right: 0;
     background-repeat: no-repeat;
     background-position: top right;
-    height: 695px;
-    width: 695px;
-    background-image: url(../images/footer/footer-shape.png);
+    /* height: 695px;
+    width: 695px; */
+    /* background-image: url(../images/footer/footer-shape.png); */
     z-index: -1;
 
 }
@@ -7994,17 +8027,17 @@ li .single-footer-contact-info .text p span{
 }
 .single-service-sidebar:before {
     position: absolute;
-    top: -300px;
+    /* top: -300px; */
     right: -30px;
     bottom: -5000px;
-    width: 1px;
+    width: 1px; 
     background: #ededed;
     content: "";
     z-index: -1;
 }
 .single-service-sidebar .single-sidebar{
     position: relative;
-    display: block;
+     display: block; 
     margin-bottom: 50px;
 }
 .single-service-sidebar .service-pages{

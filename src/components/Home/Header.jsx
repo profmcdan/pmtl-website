@@ -1,5 +1,6 @@
 import React from 'react';
 import AwesomeLogo from '../../assets/images/resources/pronto.jpg';
+import { Link } from 'react-router-dom';
 
 const Header = () => {
   return (
@@ -11,9 +12,7 @@ const Header = () => {
               <div className='col-xl-12'>
                 <div className='inner-container clearfix'>
                   <div className='logo-box-style1 float-left'>
-                    <a href='index.php'>
-                      <img src={AwesomeLogo} alt='Awesome Logo' />
-                    </a>
+                    <Link to={"/"} ><img src={AwesomeLogo} alt='Awesome Logo' /></Link>
                   </div>
                   <div className='main-menu-box float-right'>
                     <nav className='main-menu clearfix'>
@@ -32,19 +31,19 @@ const Header = () => {
                       <div className='navbar-collapse collapse clearfix'>
                         <ul className='navigation clearfix'>
                           <li className='current'>
-                            <a href='index.php'>Home</a>
+                            <Link to={"/"} >Home</Link>
                           </li>
                           <li>
-                            <a href='about.php'>About Us</a>
+                            <Link to={"/about"}>About Us</Link>
                           </li>
                           <li>
-                            <a href='product.php'>Products</a>
+                          <Link to={"/product"}>Products</Link>
                           </li>
                           <li>
-                            <a href='gallery.php'>Gallery</a>
+                          <Link to={"/gallery"}>Gallery</Link>
                           </li>
                           <li>
-                            <a href='contact.php'>Contact</a>
+                            <Link to={"/contact"}>Contact</Link>
                           </li>
                         </ul>
                       </div>
@@ -94,37 +93,6 @@ const Header = () => {
                           <p>Contact Us</p>
                         </div>
                       </div>
-                    </li>
-                  </ul>
-
-                  <ul className='header-social-links-style1 float-right'>
-                    <li
-                      className='wow slideInUp'
-                      data-wow-delay='0ms'
-                      data-wow-duration='1200ms'
-                    >
-                      <a href='#'>
-                        <i className='fa fa-facebook' aria-hidden='true'></i>
-                      </a>
-                    </li>
-                    <li
-                      className='wow slideInUp'
-                      data-wow-delay='300ms'
-                      data-wow-duration='1500ms'
-                    >
-                      <a href='#'>
-                        <i className='fa fa-twitter' aria-hidden='true'></i>
-                      </a>
-                    </li>
-
-                    <li
-                      className='wow slideInUp'
-                      data-wow-delay='400ms'
-                      data-wow-duration='1500ms'
-                    >
-                      <a href='#'>
-                        <i className='fa fa-linkedin' aria-hidden='true'></i>
-                      </a>
                     </li>
                   </ul>
                 </div>

@@ -1,6 +1,8 @@
 import React from 'react';
 import FooterImage from '../../assets/images/footer/footer-logo-1.png';
-
+import FooterImage1 from '../../assets/images/footer/iso-logo.jpg';
+import FooterBottomArea from './FooterBottomArea';
+import SocialLinks from './SocialLinks';
 const FooterBody = () => {
   return (
     <footer className='footer-area'>
@@ -88,13 +90,24 @@ const FooterBody = () => {
               <br />
               <div className='services-links'>
                 <img
-                  src='images/footer/iso-logo.jpg'
+                  
+                  src={FooterImage1} alt='iso-image'
                   style={{ paddingLeft: '10px' }}
                 />
               </div>
             </div>
           </div>
         </div>
+        <div className='copyright-container'>
+            <SocialLinks /> 
+            <div className='footer-bottom-content flex-box-two'>
+                <div className='copyright-text'>
+                  <p>
+                    Copyright 2023 | Pronto Microsystems Technologies Limited
+                  </p>
+                </div>
+              </div>
+          </div>
       </div>
     </footer>
   );

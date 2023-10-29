@@ -5,6 +5,8 @@ import Highlight from './Highlight';
 import AboutArea from './AboutArea';
 import WorkingArea from './WorkingArea';
 import WorkingProcessArea from './WorkingProcessArea';
+import HomeSlider from './HomeSlider';
+import {SliderImages} from './SliderImages';
 
 const Home = () => {
   return (
@@ -20,7 +22,8 @@ const Home = () => {
       </section>
 
       <Header />
-      <MainSlider />
+      <HomeSlider banner={SliderImages}/>
+      {/* <MainSlider /> */}
       <Highlight />
       <AboutArea />
       <WorkingArea />
