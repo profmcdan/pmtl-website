@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Highlight = () => {
   return (
@@ -50,9 +51,7 @@ const Highlight = () => {
                       transform their organisations.
                     </p>
                   </div>
-                  <a className='btn-one' href='product.php'>
-                    Read More<span className='flaticon-next'></span>
-                  </a>
+                  <Link className='btn-one' to={"/product"}> Read More<span className='flaticon-next'></span></Link>
                 </div>
               </div>
             </div>
@@ -75,9 +74,7 @@ const Highlight = () => {
                       efficiency
                     </p>
                   </div>
-                  <a className='btn-one' href='contact.php'>
-                    Read More<span className='flaticon-next'></span>
-                  </a>
+                  <Link className='btn-one' to={"/product"}> Read More<span className='flaticon-next'></span></Link>
                 </div>
               </div>
             </div>
