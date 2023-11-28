@@ -88,15 +88,14 @@ const WorkingArea = () => {
             </div>
             {/* <!--End Single Working Box--> */}
           </div>
-
-          <div
+        </div>
+        <div
             className='sec-title with-text max-width text-center wow fadeInDown button'
             data-wow-delay='100ms'
             data-wow-duration='1200ms'
           >
-            <Link to={'/products'} className='btn-one'>View More <span className="flaticon-next"></span></Link>
+            <Link to={'/product'} className='btn-one'>View More <span className="flaticon-next"></span></Link>
           </div>
-        </div>
       </section>
     </>
   );
