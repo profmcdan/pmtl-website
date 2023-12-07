@@ -1,8 +1,7 @@
 import React from 'react'
 import Working111 from '../../assets/images/resources/working-1111.jpg'
 import Working4 from '../../assets/images/resources/working-4.jpg'
-import PP211 from '../../assets/images/resources/PP211.jpeg'
-import PP311 from '../../assets/images/resources/PP311.jpeg'
+import pp211updated from  '../../assets/images/resources/pp211updated.jpg'
 import { Link } from 'react-router-dom';
 //import PR300 from '../../assets/images/resources/PR300.jpg'
 //import PM300B from '../../assets/images/resources/PM300B.png'
@@ -18,7 +17,7 @@ const StartServiceStyle = () => {
                                 <div className="col-xl-6">
                                            <Link to={'/pp110'}>
                                             <div className="img-holder">
-                                            <img src={Working111} alt="Awesome Image"/>
+                                            <img src={pp211updated} alt="Awesome Image"/>
                                             </div> 
                                             <div className="title">
                                             <h2 className="align-centre btn-one-detail">PP110 </h2>
@@ -45,7 +44,7 @@ const StartServiceStyle = () => {
                                 <div className="col-xl-6">
                                             <Link to={'/pp110'}>
                                             <div className="img-holder">
-                                            <img src={Working111} alt="Awesome Image"/>
+                                            <img src={pp211updated} alt="Awesome Image"/>
                                             </div> 
                                      
                                             <div className="title">
