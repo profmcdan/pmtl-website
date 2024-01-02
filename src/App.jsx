@@ -11,6 +11,7 @@ import {
 import RootLayout from './components/RootLayout';
 import Home from './components/Home';
 import About from './components/About/about';
+import Contact from './components/contact/contact';
 import Footer from './components/Footer/Footer';
 import Product from './components/Products/Product';
 import PP110Details from './components/ProductDetails/PP110Details';
@@ -30,6 +31,7 @@ function App() {
       <Route path='/' element={<RootLayout />}>
         <Route index element={<Home />}></Route>
         <Route path='/about' element={<About />} />
+        <Route path='/contact' element={<Contact/>} />
         <Route about element ={<About/>}></Route>
         <Route path='/product' element={<Product />} />
         <Route path='/pp110' element={<PP110Details />} />

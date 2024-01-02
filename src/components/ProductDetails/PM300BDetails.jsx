@@ -1,17 +1,17 @@
 import React from 'react'
-import PP211 from '../../assets/images/resources/PP211.jpeg'
+import pb300 from '../../assets/images/resources/pb300.png'
 function PM300BDetails() {
   return (
     <>
     <section className="services-style2-service-page">
     <div className="container">
                          <div className="row">
-                                <div className="col-xl-4">
+                                <div className="col-md-4">
                                         <div className="title">
                                             <h2 className="align-centre">PM300B</h2>
                                         </div>
                                             <div className="img-holder">
-                                            <img src={PP211} alt="Awesome Image"/>
+                                            <img src={pb300} alt="Awesome Image"/>
                                             </div> 
                                     <br/><br/>
                                     <div className="single-service-sidebar">
@@ -31,7 +31,7 @@ function PM300BDetails() {
             
                                 </div>
                                 
-                                <div className="col-xl-4">
+                                <div className="col-md-4">
                                 <br/>
                                         <div className="title">
                                             <h2 className="align-centre">Features</h2>
@@ -48,13 +48,11 @@ function PM300BDetails() {
                                         </div>   
                                 
                                         <br/>
-                                        <a className='btn-one' href='contact.php'>
-                                Read More<span className='flaticon-next'></span>
-                            </a>
+                              
                                 </div>
                                 
             
-                            <div className="col-xl-4">
+                            <div className="col-md-4">
                                     <br/>
                                         <div className="title">
                                             <h2 className="align-centre">Technical Details</h2>

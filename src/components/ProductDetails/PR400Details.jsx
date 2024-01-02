@@ -1,5 +1,5 @@
 import React from 'react'
-import PP211 from '../../assets/images/resources/PP211.jpeg'
+import PP211 from '../../assets/images/resources/pr400.png'
 function PR400Details() {
   return (
     <>
@@ -7,7 +7,7 @@ function PR400Details() {
     <div className="container">
                         
                         <div className="row">
-                                <div className="col-xl-4">
+                                <div className="col-md-4">
                                         <div className="title">
                                             <h2 className="align-centre">PR400 </h2>
                                         </div>
@@ -32,7 +32,7 @@ function PR400Details() {
             
                                 </div>
                                 
-                                <div className="col-xl-4">
+                                <div className="col-md-4">
                                 <br/>
                                         <div className="title">
                                             <h2 className="align-centre">Features</h2>
@@ -50,13 +50,11 @@ function PR400Details() {
                                         </div>   
                                 
                                         <br/>
-                                        <a className='btn-one' href='contact.php'>
-                                Read More<span className='flaticon-next'></span>
-                            </a>
+                                
                                 </div>
                                 
             
-                            <div className="col-xl-4">
+                            <div className="col-md-4">
                                     <br/>
                                         <div className="title">
                                             <h2 className="align-centre">Technical Details</h2>

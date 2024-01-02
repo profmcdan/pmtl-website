@@ -1,7 +1,7 @@
 
 
 import React from 'react'
-import Working111 from '../../assets/images/resources/working-1111.jpg'
+import Working111 from '../../assets/images/resources/pp110.png'
 import ProductMainHeader from '../Products/ProductMainHeader'
 
 
@@ -13,7 +13,7 @@ function PP110Details() {
         <div className="boxed_wrapper">
            <div className="container">                       
                    <div className="row">
-                   <div className="col-xl-4"> 
+                   <div className="col-md-4"> 
                                     <div className="img-holder">
                                       <img src={Working111} alt="Awesome Image"/>
                                       </div> 
@@ -38,7 +38,7 @@ function PP110Details() {
       
                           </div>
                         
-                        <div className="col-xl-4">
+                        <div className="col-md-4">
                                 <br/>
                                         <div className="title1">
                                             <h2>Features</h2>
@@ -64,7 +64,7 @@ function PP110Details() {
                                 
     
     
-                         <div className="col-xl-4">
+                         <div className="col-md-4">
                                     <br/>
                                         <div className="title">
                                             <h2 className="align-centre">Technical Details</h2>

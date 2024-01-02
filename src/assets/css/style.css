@@ -2053,7 +2053,7 @@ select:focus {
 }
 .single-working-box .img-holder{
     position: relative;
-    display: block;
+    display: block; 
 }
 .single-working-box .img-holder .inner{
     position: relative;

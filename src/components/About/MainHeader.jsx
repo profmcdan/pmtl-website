@@ -9,9 +9,9 @@ const mainHeader = () => {
 <header className="main-header header-style2 stricky">
     <div className="inner-container clearfix">
         <div className="logo-box-style2 float-left">
-            <a href="index-2.html">
+            <Link to={'/'}>
                 <img src={Pronto} alt="Awesome Logo"/>
-            </a>
+            </Link>
         </div>
         <div className="main-menu-box float-right">
             <nav className="main-menu style2 clearfix">
@@ -27,16 +27,14 @@ const mainHeader = () => {
                             <li >
                                 <Link to={"/"} >Home</Link>
                             </li>
-                            <li className='current'>
+                            <li>
                                 <Link to={"/about"}>About Us</Link>
                             </li>
                             <li >
                             <Link to={"/product"}>Products</Link>
                             </li>
-                            <li>
-                            <Link to={"/gallery"}>Gallery</Link>
-                            </li>
-                            <li>
+                            
+                            <li className='current'>
                                 <Link to={"/contact"}>Contact</Link>
                             </li>
                    </ul>

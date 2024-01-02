@@ -7,7 +7,7 @@ const about = () => {
   return (
    
     <div className="boxed_wrapper"> 
-     {/* <div className="preloader"></div> */}
+    {/* <div className="preloader"></div> */}
 
         {/* <!-- Start Top Bar style2 --> */}
         <section className="top-bar-style2">

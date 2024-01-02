@@ -1,13 +1,14 @@
 import React from 'react'
-import PP211 from '../../assets/images/resources/PP211.jpeg'
+import PP211 from '../../assets/images/resources/pp211.png'
 
 function PP211Details() {
+    return (
     <>
     <section className="services-style2-service-page">
             <div className="container">
                      
                <div className="row">
-               <div className="col-xl-4">
+               <div className="col-md-4">
                                         <div className="title">
                                             <h2 className="align-centre">PP211 </h2>
                                         </div>
@@ -33,7 +34,7 @@ function PP211Details() {
                 </div>
                     
 
-                <div className="col-xl-4">
+                <div className="col-md-4">
                                 <br/>
                                         <div className="title">
                                             <h2 className="align-centre">Features</h2>
@@ -55,15 +56,13 @@ function PP211Details() {
                                         </div>   
                                 
                                         <br/>
-                                        <a className='btn-one' href='contact.php'>
-                                Read More<span className='flaticon-next'></span>
-                            </a>
+                            
                                 </div>
                  
                             
 
 
-                                <div className="col-xl-4">
+                                <div className="col-md-4">
                                     <br/>
                                         <div className="title">
                                             <h2 className="align-centre">Technical Details</h2>
@@ -94,6 +93,7 @@ function PP211Details() {
     
         </section>
    </>
+    )
 }
 
 export default PP211Details

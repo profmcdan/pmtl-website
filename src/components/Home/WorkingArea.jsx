@@ -1,6 +1,8 @@
 import React from 'react';
 import WorkingImageOne from '../../assets/images/resources/working-1111.jpg';
 import WorkingImageFour from '../../assets/images/resources/working-4.jpg';
+import pp211 from '../../assets/images/resources/pp211.png';
+import pr400 from  '../../assets/images/resources/pr400.png';
 import { Link } from 'react-router-dom';
 
 const WorkingArea = () => {
@@ -24,7 +26,7 @@ const WorkingArea = () => {
               >
                 <div className='img-holder'>
                   <div className='inner'>
-                    <img src={WorkingImageOne} alt='Awesome Image' />
+                    <img src={pp211} alt='Awesome Image' />
                   </div>
                 </div>
                 <div className='text-holder'>
@@ -60,7 +62,7 @@ const WorkingArea = () => {
               >
                 <div className='img-holder'>
                   <div className='inner'>
-                    <img src={WorkingImageFour} alt='Awesome Image' />
+                    <img src={pp211} alt='Awesome Image' />
                   </div>
                 </div>
                 <div className='text-holder'>

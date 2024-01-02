@@ -1,5 +1,5 @@
 import React from 'react'
-import Working111 from '../../assets/images/resources/working-1111.jpg'
+import Working111 from '../../assets/images/resources/pmtl7630.png'
 const PMTL7630Details = () => {
   return (
     <>
@@ -7,7 +7,7 @@ const PMTL7630Details = () => {
             <div className="container">
                      
             <div className="row">
-                    <div className="col-xl-4">
+                    <div className="col-md-4">
                             <div className="title">
                                 <h2 className="align-centre">PMTL 7630 </h2>
                             </div>
@@ -31,7 +31,7 @@ const PMTL7630Details = () => {
                          </div>
                     </div>
                     
-                    <div className="col-xl-4">
+                    <div className="col-md-4">
                      <br/>
                             <div className="title">
                                 <h2 className="align-centre">Features</h2>
@@ -76,7 +76,7 @@ const PMTL7630Details = () => {
 
 
 
-                  <div className="col-xl-4">
+                  <div className="col-md-4">
                        <br/>
                            <div className="title">
                                 <h2 className="align-centre">Transmission</h2>

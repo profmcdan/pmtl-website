@@ -1,5 +1,6 @@
 import React from 'react';
 import AboutImage from '../../assets/images/resources/about.jpg';
+import AllProds from '../../assets/images/resources/allprods.png';
 
 const AboutArea = () => {
   return (
@@ -10,7 +11,7 @@ const AboutArea = () => {
             <div className='col-xl-5 col-lg-5'>
               <div className='about-image-box'>
                 <div className='inner-box'>
-                  <img src={AboutImage} alt='Awesome Image' />
+                  <img src={AllProds} alt='Awesome Image' />
                 </div>
               </div>
             </div>

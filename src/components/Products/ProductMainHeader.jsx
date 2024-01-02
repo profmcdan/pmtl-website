@@ -33,9 +33,9 @@ const ProductMainHeader = () => {
                             <li className='current'>
                             <Link to={"/product"}>Products</Link>
                             </li>
-                            <li>
+                            {/* <li>
                             <Link to={"/gallery"}>Gallery</Link>
-                            </li>
+                            </li> */}
                             <li>
                                 <Link to={"/contact"}>Contact</Link>
                             </li>
@@ -46,7 +46,7 @@ const ProductMainHeader = () => {
                
                
                <div className="button">
-                   <a className="btn-one" href="contact.php">Contact Us<span className="flaticon-next"></span></a>
+                   <a className="btn-one" href="#">Contact Us<span className="flaticon-next"></span></a>
                </div>
            </div>
        </div>
