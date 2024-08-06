@@ -1,5 +1,5 @@
 import React from 'react'
-import pb300 from '../../assets/images/resources/pb300.png'
+import { webSiteImage } from '../../images'
 function PM300BDetails() {
   return (
     <>
@@ -11,7 +11,7 @@ function PM300BDetails() {
                                             <h2 className="align-centre">PM300B</h2>
                                         </div>
                                             <div className="img-holder">
-                                            <img src={pb300} alt="Awesome Image"/>
+                                            <img src={webSiteImage.pb300} alt="Awesome Image"/>
                                             </div> 
                                     <br/><br/>
                                     <div className="single-service-sidebar">
@@ -19,7 +19,7 @@ function PM300BDetails() {
                                             <ul className="service-pack-download">
                                                 <li className="clearfix">
                                                     <div className="title-holder">
-                                                        <a href="assets/NA7630-setup.7z">Radio Programming<span>(7630)</span></a>
+                                                        <a href="assets/NA7630-setup.7z">Radio Programming</a>
                                                     </div>
                                                     <div className="icon-holder">
                                                         <i className="fa fa-download" aria-hidden="true"></i>

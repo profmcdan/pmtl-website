@@ -1,7 +1,7 @@
 
 
 import React from 'react'
-import Working111 from '../../assets/images/resources/pp110.png'
+import { webSiteImage } from '../../images'
 import ProductMainHeader from '../Products/ProductMainHeader'
 
 
@@ -15,7 +15,7 @@ function PP110Details() {
                    <div className="row">
                    <div className="col-md-4"> 
                                     <div className="img-holder">
-                                      <img src={Working111} alt="Awesome Image"/>
+                                      <img src={webSiteImage.pp110} alt="Awesome Image"/>
                                       </div> 
                                       <div className="title">
                                       <h2 className="align-centre">PP110 </h2>
@@ -26,7 +26,7 @@ function PP110Details() {
                                       <ul className="service-pack-download">
                                           <li className="clearfix">
                                               <div className="title-holder">
-                                              <a href="assets/NA7630-setup.7z">Radio Programming<span>(7630)</span></a>
+                                              <a href={webSiteImage.programCodepp110}>Radio Programming</a>
                                               </div>
                                               <div className="icon-holder">
                                                   <i className="fa fa-download" aria-hidden="true"></i>

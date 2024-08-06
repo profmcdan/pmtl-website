@@ -1,6 +1,6 @@
 import React from 'react';
-import AboutImage from '../../assets/images/resources/about.jpg';
-import AllProds from '../../assets/images/resources/allprods.png';
+const allProducts = "https://pmtlproducts.s3.us-east-2.amazonaws.com/resources/allprods.webp";
+// import brand from '../../assets/images/resources/brand.png';
 
 const AboutArea = () => {
   return (
@@ -11,7 +11,7 @@ const AboutArea = () => {
             <div className='col-xl-5 col-lg-5'>
               <div className='about-image-box'>
                 <div className='inner-box'>
-                  <img src={AllProds} alt='Awesome Image' />
+                  <img src={allProducts} alt='Awesome Image' />
                 </div>
               </div>
             </div>

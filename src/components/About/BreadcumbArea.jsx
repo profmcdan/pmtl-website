@@ -1,11 +1,10 @@
 import React from 'react'
-import BackgroundImage from '../../assets/images/resources/About-us-1.jpg'
 
 const BreadcumbArea = () => {
   return (
    <>
    {/* <!--Start breadcrumb area--> */}
-<section className="breadcrumb-area" style={{backgroundImage:`url(${BackgroundImage})`}}>
+{/* <section className="breadcrumb-area" style={{backgroundImage:`url(${webSiteImage.aboutPage})`}}>
     <div className="container">
         <div className="row">
             <div className="col-xl-12">
@@ -21,7 +20,7 @@ const BreadcumbArea = () => {
             </div>
         </div>
     </div>
-</section>
+</section> */}
 {/* <!--End breadcrumb area--> */}
    </>
   )

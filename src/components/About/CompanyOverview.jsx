@@ -1,9 +1,5 @@
 import React from 'react'
-import Team from '../../assets/images/resources/PMTL_Gate.jpg'
-import Factory from '../../assets/images/resources/factory.png'
-import Tech from '../../assets/images/resources/tech1.png'
-import ISO from '../../assets/images/resources/iso.jpg'
-
+import { webSiteImage } from '../../images'
 
 const CompanyOverview = () => {
     const styles ={
@@ -38,7 +34,7 @@ const CompanyOverview = () => {
                         <div className="single-history-content">
                             <div className="img-box">
                                 <div className="inner">
-                                    <img src={Team} alt="Awesome Image"/>
+                                    <img src={webSiteImage.Gate} alt="Awesome Image"/>
                                 </div>
                             </div>
                             <div className="text-box">
@@ -102,7 +98,7 @@ const CompanyOverview = () => {
         <div className="row">
         
                 <div className="col-xl-6 col-lg-6">
-                    <img src= {Factory}/>
+                    <img src= {webSiteImage.factory}/>
                 </div>
 
                 <div className="col-xl-6 col-lg-6"> 
@@ -129,7 +125,7 @@ const CompanyOverview = () => {
                         <p>We will continue to leverage our team of highly skilled professionals to help organisations with on-demand, mission-critical communications in all scenarios, from daily command and control to emergency response, disaster relief, law enforcement and other essential activities. </p>
                 </div> 
                 <div className="col-xl-6 col-lg-6">
-                    <img src= {Tech} alt='Tech picture'/>
+                    <img src= {webSiteImage.tech} alt='Tech picture'/>
                 </div>
         </div> 
     </div>
@@ -143,7 +139,7 @@ const CompanyOverview = () => {
                  
                      <div className="sec-title">
                         <div className="title">PMTL Quality Policy</div>
-                       <img src= {ISO} style={{ styles, width:'50%', height:'50%'}}/>
+                       <img src= {webSiteImage.aboutIso} style={{ styles, width:'50%', height:'50%'}}/>
                        
                     </div>
                 

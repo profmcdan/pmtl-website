@@ -1,5 +1,5 @@
 import React from 'react';
-import AwesomeLogo from '../../assets/images/resources/pronto.jpg';
+import {webSiteImage} from '../../images';
 import { Link } from 'react-router-dom';
 
 const Header = () => {
@@ -12,7 +12,7 @@ const Header = () => {
               <div className='col-xl-12'>
                 <div className='inner-container clearfix'>
                   <div className='logo-box-style1 float-left'>
-                    <Link to={"/"} ><img src={AwesomeLogo} alt='Awesome Logo' /></Link>
+                    <Link to={"/"} ><img src={webSiteImage.pronto} alt='Awesome Logo' /></Link>
                   </div>
                   <div className='main-menu-box float-right'>
                     <nav className='main-menu clearfix'>

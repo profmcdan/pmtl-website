@@ -1,7 +1,8 @@
-/** @format */
+
 
 import React from "react";
 import { Link } from 'react-router-dom';
+import { webSiteImage } from "../../images";
 
 const MainHeader = () => {
   return (
@@ -11,7 +12,7 @@ const MainHeader = () => {
         <div className="inner-container clearfix">
           <div className="logo-box-style2 float-left">
             <Link to={'/'}>
-              <img src="images/resources/pronto.jpg" alt="Awesome Logo" />
+              <img src={webSiteImage.pronto} alt="Awesome Logo" />
             </Link>
           </div>
           <div className="main-menu-box float-right">

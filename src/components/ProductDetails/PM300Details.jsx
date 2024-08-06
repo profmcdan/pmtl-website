@@ -1,8 +1,10 @@
 import React from 'react'
-import PP211 from '../../assets/images/resources/PP211.jpeg'
+import { webSiteImage } from '../../images'
+import ProductMainHeader from '../Products/ProductMainHeader'
 function PM300Details() {
   return (
     <>
+    <ProductMainHeader/>
     <section className="services-style2-service-page">
     <div className="container">
                         
@@ -12,7 +14,7 @@ function PM300Details() {
                                             <h2 className="align-centre">PM300 </h2>
                                         </div>
                                             <div className="img-holder">
-                                            <img src={PP211} alt="Awesome Image"/>
+                                            <img src={webSiteImage.programCodepm300} alt="Awesome Image"/>
                                             </div> 
                                     <br/><br/>
                                     <div className="single-service-sidebar">

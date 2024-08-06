@@ -1,12 +1,12 @@
-import React from 'react'
-import banner from '../../assets/images/resources/banner.jpg'
+import React from 'react';
 import { Link } from 'react-router-dom';
+import { webSiteImage } from '../../images';
 
 const BreadcrumbArea = () => {
   return (
     <>
        {/* <!--Start breadcrumb area--> */}
-        <section className="breadcrumb-area" style={{backgroundImage:`url(${banner})`}}>
+        <section className="breadcrumb-area" style={{backgroundImage:`url(${webSiteImage.banner})`}}>
         <div className="container">
                 <div className="row">
                     <div className="col-xl-12">

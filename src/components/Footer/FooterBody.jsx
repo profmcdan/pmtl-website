@@ -1,8 +1,6 @@
 import React from 'react';
-import FooterImage from '../../assets/images/footer/footer-logo-1.png';
-import FooterImage1 from '../../assets/images/footer/iso-logo.jpg';
-import FooterBottomArea from './FooterBottomArea';
-import SocialLinks from './SocialLinks';
+import { webSiteImage } from '../../images';
+import { Link } from 'react-router-dom';
 const FooterBody = () => {
   return (
     <footer className='footer-area'>
@@ -18,8 +16,8 @@ const FooterBody = () => {
             <div className='single-footer-widget marbtm50'>
               <div className='contact-info-box'>
                 <div className='footer-logo'>
-                  <a href='index.php'>
-                    <img src={FooterImage} alt='Awesome Logo' />
+                  <a href='/'>
+                    <img src={webSiteImage.pronto} alt='Awesome Logo' />
                   </a>
                 </div>
 
@@ -91,7 +89,7 @@ const FooterBody = () => {
               <div className='services-links'>
                 <img
                   
-                  src={FooterImage1} alt='iso-image'
+                  src={webSiteImage.iso} alt='iso-image'
                   style={{ paddingLeft: '10px' }}
                 />
               </div>
@@ -99,7 +97,6 @@ const FooterBody = () => {
           </div>
         </div>
         <div className='copyright-container'>
-            <SocialLinks /> 
             <div className='footer-bottom-content flex-box-two'>
                 <div className='copyright-text'>
                   <p>

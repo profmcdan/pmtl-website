@@ -1,17 +1,18 @@
 import React from 'react';
 import Header from './Header';
-import MainSlider from './MainSlider';
 import Highlight from './Highlight';
 import AboutArea from './AboutArea';
 import WorkingArea from './WorkingArea';
 import WorkingProcessArea from './WorkingProcessArea';
 import HomeSlider from './HomeSlider';
 import {SliderImages} from './SliderImages';
+import { Suspense } from 'react';
+import loader from './loader';
 
 const Home = () => {
   return (
     <div className='boxed_wrapper'>
-      {/* <div className='preloader'></div> */}
+\    
 
       <section className='top-bar-style1'>
         <div className='container'>
@@ -20,14 +21,19 @@ const Home = () => {
           </div>
         </div>
       </section>
+      
+     
 
-      <Header />
+  
+  <Header />
       <HomeSlider banner={SliderImages}/>
       {/* <MainSlider /> */}
       <Highlight />
       <AboutArea />
       <WorkingArea />
       <WorkingProcessArea />
+
+      
     </div>
   );
 };

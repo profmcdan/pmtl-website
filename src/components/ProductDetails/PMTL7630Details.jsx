@@ -1,8 +1,10 @@
 import React from 'react'
-import Working111 from '../../assets/images/resources/pmtl7630.png'
+import { webSiteImage } from '../../images'
+import ProductMainHeader from '../Products/ProductMainHeader'
 const PMTL7630Details = () => {
   return (
     <>
+    <ProductMainHeader/>
     <section className="services-style2-service-page">
             <div className="container">
                      
@@ -12,7 +14,7 @@ const PMTL7630Details = () => {
                                 <h2 className="align-centre">PMTL 7630 </h2>
                             </div>
                                 <div className="img-holder">
-                                 <img src={Working111} alt="Awesome Image"/>
+                                 <img src={webSiteImage.pmtl7630} alt="Awesome Image"/>
                                 </div> 
                         <br/><br/>
                          <div className="single-service-sidebar">
@@ -20,7 +22,7 @@ const PMTL7630Details = () => {
                                 <ul className="service-pack-download">
                                     <li className="clearfix">
                                         <div className="title-holder">
-                                            <a href="assets/NA7630-setup.7z">Radio Programming<span>(7630)</span></a>
+                                        <a href={webSiteImage.programCode7630}>Radio Programming</a>
                                         </div>
                                         <div className="icon-holder">
                                             <i className="fa fa-download" aria-hidden="true"></i>

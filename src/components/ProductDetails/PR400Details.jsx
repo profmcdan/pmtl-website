@@ -1,8 +1,10 @@
 import React from 'react'
-import PP211 from '../../assets/images/resources/pr400.png'
+import { webSiteImage } from '../../images'
+import ProductMainHeader from '../Products/ProductMainHeader'
 function PR400Details() {
   return (
     <>
+    <ProductMainHeader />
     <section className="services-style2-service-page">
     <div className="container">
                         
@@ -12,7 +14,7 @@ function PR400Details() {
                                             <h2 className="align-centre">PR400 </h2>
                                         </div>
                                             <div className="img-holder">
-                                            <img src={PP211} alt="Awesome Image"/>
+                                            <img src={webSiteImage.pr400} alt="Awesome Image"/>
                                             </div> 
                                     <br/><br/>
                                     <div className="single-service-sidebar">
@@ -20,7 +22,7 @@ function PR400Details() {
                                             <ul className="service-pack-download">
                                                 <li className="clearfix">
                                                     <div className="title-holder">
-                                                        <a href="assets/NA7630-setup.7z">Radio Programming<span>(7630)</span></a>
+                                                    <a href={webSiteImage.programCode6901}>Radio Programming</a>
                                                     </div>
                                                     <div className="icon-holder">
                                                         <i className="fa fa-download" aria-hidden="true"></i>

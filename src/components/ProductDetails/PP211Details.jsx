@@ -1,9 +1,11 @@
 import React from 'react'
-import PP211 from '../../assets/images/resources/pp211.png'
+import ProductMainHeader from '../Products/ProductMainHeader'
+import { webSiteImage } from '../../images'
 
 function PP211Details() {
     return (
     <>
+    <ProductMainHeader/>
     <section className="services-style2-service-page">
             <div className="container">
                      
@@ -13,7 +15,7 @@ function PP211Details() {
                                             <h2 className="align-centre">PP211 </h2>
                                         </div>
                                             <div className="img-holder">
-                                            <img src={PP211} alt="Awesome Image"/>
+                                            <img src={webSiteImage.pp211} alt="Awesome Image"/>
                                             </div> 
                                     <br/><br/>
                                     <div className="single-service-sidebar">
@@ -21,7 +23,7 @@ function PP211Details() {
                                             <ul className="service-pack-download">
                                                 <li className="clearfix">
                                                     <div className="title-holder">
-                                                        <a href="assets/NA7630-setup.7z">Radio Programming<span>(7630)</span></a>
+                                                    <a href={webSiteImage.programCodepp211}>Radio Programming</a>
                                                     </div>
                                                     <div className="icon-holder">
                                                         <i className="fa fa-download" aria-hidden="true"></i>

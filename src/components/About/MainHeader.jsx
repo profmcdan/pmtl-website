@@ -1,5 +1,5 @@
 import React from 'react'
-import Pronto from '../../assets/images/resources/pronto.jpg'
+import { webSiteImage } from '../../images';
 import { Link } from 'react-router-dom';
 
 const mainHeader = () => {
@@ -10,7 +10,7 @@ const mainHeader = () => {
     <div className="inner-container clearfix">
         <div className="logo-box-style2 float-left">
             <Link to={'/'}>
-                <img src={Pronto} alt="Awesome Logo"/>
+                <img src={webSiteImage.pronto} alt="Awesome Logo"/>
             </Link>
         </div>
         <div className="main-menu-box float-right">
