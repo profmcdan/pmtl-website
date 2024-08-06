@@ -9,9 +9,9 @@ const ProductMainHeader = () => {
    <header className="main-header header-style2 stricky">
    <div className="inner-container clearfix">
        <div className="logo-box-style2 float-left">
-           <a href="index-2.html">
-               <img src={webSiteImage.pronto} alt="Awesome Logo" />
-           </a>
+                <a href='/'>
+                    <img src={webSiteImage.pronto} alt='Awesome Logo' />
+                </a>
        </div>
        <div className="main-menu-box float-right">
            <nav className="main-menu style2 clearfix">
