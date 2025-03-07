@@ -1,6 +1,7 @@
 import React from 'react';
 const allProducts = "https://pmtlproducts.s3.us-east-2.amazonaws.com/resources/allprods.webp";
 import {product} from '../../assets/images/services/allprods.png'
+console.log("product Image is:", product);
 // import brand from '../../assets/images/resources/brand.png';
 
 const AboutArea = () => {
