@@ -1,5 +1,6 @@
 import React from 'react';
 const allProducts = "https://pmtlproducts.s3.us-east-2.amazonaws.com/resources/allprods.webp";
+import {product} from '../../assets/images/services/allprods.png'
 // import brand from '../../assets/images/resources/brand.png';
 
 const AboutArea = () => {
@@ -11,7 +12,7 @@ const AboutArea = () => {
             <div className='col-xl-5 col-lg-5'>
               <div className='about-image-box'>
                 <div className='inner-box'>
-                  <img src={allProducts} alt='Awesome Image' />
+                  <img src={product} alt='Awesome Image' />
                 </div>
               </div>
             </div>
