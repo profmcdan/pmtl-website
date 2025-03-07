@@ -1,7 +1,9 @@
 import React from 'react';
-const allProducts = "https://pmtlproducts.s3.us-east-2.amazonaws.com/resources/allprods.webp";
-import {product} from '../../assets/images/services/allprods.png'
-import brand from '../../assets/images/resources/brand.png';
+// // const allProducts = "https://pmtlproducts.s3.us-east-2.amazonaws.com/resources/allprods.webp";
+// import {allprods} from '../../assets/images/services/allprods.png'
+//import {brand} from '../../assets/images/services/brand.png';
+import { webSiteImage } from '../../images';
+console.log('websiteImage', webSiteImage.allProducts);
 
 const AboutArea = () => {
   return (
@@ -12,7 +14,7 @@ const AboutArea = () => {
             <div className='col-xl-5 col-lg-5'>
               <div className='about-image-box'>
                 <div className='inner-box'>
-                  <img src={brand} alt=' not Awesome Image' />
+                  <img src={webSiteImage.allProducts} alt='Awesome Image' />
                 </div>
               </div>
             </div>
