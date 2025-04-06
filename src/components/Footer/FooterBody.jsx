@@ -45,7 +45,7 @@ const FooterBody = () => {
                   <li>
                     <h6>Phone</h6>
                     <p>
-                      +234-1-454-5650 <br /> +234-1-454-5651
+                      020-1454-5650 <br /> 020-1454-5651
                       <br /> <span>Mon - Friday:</span> 9am to 4pm
                     </p>
                   </li>
@@ -70,10 +70,10 @@ const FooterBody = () => {
               <div className='services-links'>
                 <ul>
                   <li>
-                    <a href='product.php'>PMTL 6901</a>
+                    < Link to='/pp311'>PP 311</Link>
                   </li>
                   <li>
-                    <a href='product.php'>PMTL 7630</a>
+                    <Link to ='/pp211'>PP 211</Link>
                   </li>
                 </ul>
               </div>

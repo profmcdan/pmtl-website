@@ -78,7 +78,7 @@ const Header = () => {
                           <span className='icon-phone'></span>
                         </div>
                         <div className='text'>
-                          <h3>+234-1-454-5650</h3>
+                          <h3>020-1454-5650</h3>
                           <p>Mon - Friday: 9am to 4pm</p>
                         </div>
                       </div>

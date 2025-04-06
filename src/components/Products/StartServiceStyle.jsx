@@ -118,10 +118,10 @@ const StartServiceStyle = () => {
                            <div className="col-md-3">
                                    <Link to={'/pmtl7630'}>
                                         <div className="img-holder">
-                                            <img src={webSiteImage.pmtl7630} alt="Awesome Image"/>
+                                            <img src={webSiteImage.pb300} alt="Awesome Image"/>
                                             </div> 
                                             <div className="title">
-                                            <h2 className="align-centre btn-one-detail">PMTL 7630</h2>
+                                            <h2 className="align-centre btn-one-detail">PB 300</h2>
                                         </div>
                                    </Link>
                            </div>
@@ -157,10 +157,10 @@ const StartServiceStyle = () => {
                            <div className="col-md-3">
                                    <Link to={'/pmtl7630'}>
                                         <div className="img-holder">
-                                            <img src={webSiteImage.pmtl7630} alt="Awesome Image"/>
+                                            <img src={webSiteImage.pr400} alt="Awesome Image"/>
                                             </div> 
                                             <div className="title">
-                                            <h2 className="align-centre btn-one-detail">PMTL 7630</h2>
+                                            <h2 className="align-centre btn-one-detail">PR 400</h2>
                                         </div>
                                    </Link>
                            </div>

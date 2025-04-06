@@ -12,9 +12,17 @@ import tech from "./assets/images/tech.webp"
 import team from "./assets/images/team.webp"
 import poc from "./assets/images/poc.webp"
 import pp311 from "./assets/images/pp311.webp"
+import pb300 from "./assets/images/pb300.webp"
 import aboutPage from "./assets/images/About-us-1.webp"
+import pr400 from "./assets/images/pr400.webp"
 import Gate from  "./assets/images/PMTL_Gate.webp" 
-
+import programCode7630 from "./assets/images/NA7630-setup.7z"
+import programCode6901 from "./assets/images/NA6901-setup.7z" 
+import programCodepp110 from "./assets/images/PP110.zip"
+import programCodepp211 from "./assets/images/PP211.zip"
+import programCodepp311 from "./assets/images/PP311.zip"
+import programCodepm300 from "./assets/images/PM300.zip"
+import programCodepr300 from "./assets/images/PR300.zip"
 // "https://pmtlproducts.s3.us-east-2.amazonaws.com/resources/allprods.webp",
 // "https://pmtlproducts.s3.us-east-2.amazonaws.com/resources/pp110.webp",
 // "https://pmtlproducts.s3.us-east-2.amazonaws.com/resources/pb300.webp",
@@ -32,6 +40,12 @@ import Gate from  "./assets/images/PMTL_Gate.webp"
 // "https://pmtlproducts.s3.us-east-2.amazonaws.com/resources/factory.webp",
 // "https://pmtlproducts.s3.us-east-2.amazonaws.com/resources/tech1.webp"
 // "https://pmtlproducts.s3.us-east-2.amazonaws.com/resources/PMTL_Gate.webp"
+  // "https://pmtlproducts.s3.us-east-2.amazonaws.com/resources/PP110.zip"
+  // "https://pmtlproducts.s3.us-east-2.amazonaws.com/resources/PP211.zip"
+  // "https://pmtlproducts.s3.us-east-2.amazonaws.com/resources/PP311.zip"
+  // "https://pmtlproducts.s3.us-east-2.amazonaws.com/resources/PR300.zip"
+  // "https://pmtlproducts.s3.us-east-2.amazonaws.com/resources/PP311.zip"
+  
 export const webSiteImage = {
   allProducts: allprods,
   pp110: pp110,
@@ -47,18 +61,18 @@ export const webSiteImage = {
   iso: iso,
   aboutIso:aboutIso,
   aboutPage:aboutPage,
+  pb300:pb300,
+  pr400:pr400,
   // factory:,
   tech: tech,
   Gate: Gate,
-  programCode7630:
-    "https://pmtlproducts.s3.us-east-2.amazonaws.com/resources/NA7630-setup.7z",
-  programCode6901:
-    "https://pmtlproducts.s3.us-east-2.amazonaws.com/resources/NA6901-setup.7z",
-  programCodepp110:"https://pmtlproducts.s3.us-east-2.amazonaws.com/resources/PP110.zip",
-  programCodepp211:"https://pmtlproducts.s3.us-east-2.amazonaws.com/resources/PP211.zip",
-  programCodepp311:"https://pmtlproducts.s3.us-east-2.amazonaws.com/resources/PP311.zip",
-  programCodepr300:"https://pmtlproducts.s3.us-east-2.amazonaws.com/resources/PR300.zip",
-  programCodepm300:"https://pmtlproducts.s3.us-east-2.amazonaws.com/resources/PP311.zip",
+  programCode7630:programCode7630,
+  programCode6901:programCode6901,
+  programCodepp110:programCodepp110,
+  programCodepp211:programCodepp211,
+  programCodepp311:programCodepp311,
+  programCodepr300:programCodepr300,
+  programCodepm300:programCodepm300,
   banner: "https://pmtlproducts.s3.us-east-2.amazonaws.com/resources/banner.jpg",
 
 };
