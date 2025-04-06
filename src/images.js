@@ -69,6 +69,4 @@ export const webSiteImage = {
   programCodepp311: programCodepp311,
   programCodepr300: programCodepr300,
   programCodepm300: programCodepm300,
-  banner:
-    "https://pmtlproducts.s3.us-east-2.amazonaws.com/resources/banner.jpg",
 };

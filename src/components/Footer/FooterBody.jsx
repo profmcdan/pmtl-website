@@ -69,12 +69,12 @@ const FooterBody = () => {
               </div>
               <div className='services-links'>
                 <ul>
-                  <li>
-                    < Link to='/pp311'>PP 311</Link>
+                  {/* <li>
+                    <Link to={'/pp311'}>PP 311</Link>
                   </li>
                   <li>
-                    <Link to ='/pp211'>PP 211</Link>
-                  </li>
+                    <Link to={'/pp211'}>PP 211</Link>
+                  </li> */}
                 </ul>
               </div>
             </div>

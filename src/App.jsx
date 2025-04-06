@@ -7,7 +7,6 @@ import {
   RouterProvider,
 } from 'react-router-dom';
 
-// import './App.css';
 import RootLayout from './components/RootLayout';
 import Home from './components/Home';
 import About from './components/About/about';
