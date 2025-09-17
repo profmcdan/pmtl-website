@@ -491,6 +491,19 @@ li{
     box-shadow: 0px 3px 5px 2px #ededed;
     transition: all 500ms ease;
 }
+.accordion-box .accordion .accord-btn1 {
+    position: relative;
+    display: block;
+    cursor: pointer;
+    background: #ffffff;
+    padding-left: 40px;
+    padding-right: 70px;
+    padding-top: 22px;
+    padding-bottom: 22px;
+    -webkit-box-shadow: 0px 3px 5px 2px #ededed; 
+    box-shadow: 0px 3px 5px 2px #ededed;
+    transition: all 500ms ease;
+}
 .accordion-box .accordion .accord-btn h4 {
     color: #27282c;
     font-size: 18px;
@@ -510,11 +523,31 @@ li{
     font-weight: 300;
     transition: all 500ms ease 0s;
 }
+
+.accordion-box .accordion .accord-btn1::after {
+    font-family: "Flaticon";
+    position: absolute;
+    top: 22px;
+    right: 40px;
+    color: #b4b4b4;
+    font-size: 25px;
+    line-height: 25px;
+    font-weight: 300;
+    transition: all 500ms ease 0s;
+}
 .accordion-box .accordion .accord-btn.active{
     background: #27282c;
     transition: all 500ms ease;
 }
+
+.accordion-box .accordion .accord-btn1.active{
+    background: #27282c;
+    transition: all 500ms ease;
+}
 .accordion-box .accordion .accord-btn.active h4 {
+    color: #ffffff;
+}
+.accordion-box .accordion .accord-btn1.active h4 {
     color: #ffffff;
 }
 .accordion-box .accordion .accord-btn.active:after{

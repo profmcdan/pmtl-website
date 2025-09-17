@@ -71,7 +71,7 @@ const StartServiceStyle = () => {
                                 <div className="col-md-3">
                                    <Link to={'/duplexer'}>
                                         <div className="img-holder">
-                                            <img src={webSiteImage.duplexer} alt="Awesome Image"/>
+                                            <img src={webSiteImage.pr400} alt="Awesome Image"/>
                                             </div> 
                                             <div className="title">
                                             <h2 className="align-centre btn-one-detail">Duplexer</h2>
@@ -157,7 +157,7 @@ const StartServiceStyle = () => {
                            <div className="col-md-3">
                                    <Link to={'/pmtl7630'}>
                                         <div className="img-holder">
-                                            <img src={webSiteImage.pr400} alt="Awesome Image"/>
+                                            <img src={webSiteImage.duplexer} alt="Awesome Image"/>
                                             </div> 
                                             <div className="title">
                                             <h2 className="align-centre btn-one-detail">PR 400</h2>

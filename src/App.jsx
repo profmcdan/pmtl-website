@@ -21,6 +21,15 @@ import PM300BDetails from './components/ProductDetails/PM300BDetails';
 import PR400Details from './components/ProductDetails/PR400Details';
 import PMTL6901Details from './components/ProductDetails/PMTL6901Details';
 import PMTL7630Details from './components/ProductDetails/PMTL7630Details';
+import Careers from './components/Home/Careers';
+import EmbededSystem from './components/careers/EmbededSystem';
+import SoftwareEngineers from './components/careers/SoftwareEngineers';
+import Mechanical from './components/careers/Mechanical';
+import Hardware from './components/careers/Hardware';
+import RfMicrowave from './components/careers/RfMicrowave';
+import Integration from './components/careers/Integration';
+import Technician from './components/careers/Technician';
+import Communication from './components/careers/Communication';
 
 
 
@@ -41,6 +50,16 @@ function App() {
         <Route path='/pr400' element={<PR400Details />} />
         <Route path='/pmtl6901' element={<PMTL6901Details />} />
         <Route path='/pmtl7630' element={<PMTL7630Details />} />
+        <Route path='/careers' element={<Careers />}></Route>
+        <Route path='/embedded' element={<EmbededSystem />}></Route>
+        <Route path='/software' element={<SoftwareEngineers />}></Route>
+        <Route path='/communication' element={<Communication/>}></Route>
+        <Route path='/mechanical' element={<Mechanical />}></Route>
+        <Route path='/hardware' element={<Hardware />}></Route>
+        <Route path='/rf' element={<RfMicrowave />}></Route>
+        <Route path='/integration' element={<Integration />}></Route>
+        <Route path='/technician' element={<Technician />}></Route>
+
         <Route product element ={<product/>}></Route>
         <Route path='*' element={<h1>Not Found</h1>} />
       </Route>
