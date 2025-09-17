@@ -48,10 +48,10 @@ const CareerHeader = () => {
                             <Link to={"/"} >Home</Link>
                           </li>
                           <li>
-                            <Link to={"/embedded"}> Vacancy-for-Embbeded Systems Engineer </Link>
+                            <Link to={"/embedded"}> Vacant-for-Embbeded Systems Engineer </Link>
                           </li>
                           <li>
-                          <Link to={"/software"}>Vacancy-for-Software Engineers/Developers</Link>
+                          <Link to={"/software"}>Vacant-for-Software Engineers/Developers</Link>
                           </li>
                           {/* <li>
                           <Link to={"/gallery"}>Gallery</Link>
