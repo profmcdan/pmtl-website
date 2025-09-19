@@ -32,7 +32,7 @@ const CareerHeader = () => {
                       </div>
                                                <div className="main-menu-box float-right">
                         <nav className="main-menu clearfix">
-                          <div className="navbar-collapse collapse clearfix">
+                          <div className="">
                             <ul className="navigation clearfix">
                               {/* <li className="current">
                                 <Link to={"/"}>Home</Link>
