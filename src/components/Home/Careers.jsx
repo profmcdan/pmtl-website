@@ -15,8 +15,8 @@ const Careers = () => {
           </div>
         </div>
       </section>
-      <CareerHeader />
       <HomeSlider banner={SliderImages}/>
+       <CareerHeader />
     </div>
   );
 };
